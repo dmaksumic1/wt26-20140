@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="bs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Forma</title>
+</head>
+<body>
+    <h1>Narudžba hrane:</h1>
+    
+    <form >
+            <label for="ime">Ime:</label>
+            <input type="text" id="ime" ><br>
+            <label for="prezime">Prezime:</label>
+            <input type="text" id="prezime" ><br>
+
+            <!-- izbor vise opcija/ radio buttons izabran jer ima malo opcija, ne guši ekran -->
+                            
+<br>
+            <label ><b>Način Dostave</b></label><br>
+
+            <label for="kuci">Dostava na adresu</label>
+            <input type="radio" id="kuci" name="dostava"><br>
+            <label for="pickup">Pickup</label>
+            <input type="radio"  id="pickup" name="dostava"><br>
+            <label for="paketomat">Paketomat</label>
+            <input type="radio"  id="paketomat" name="dostava">
+<br><br>
+<!-- Visestruki izbor smislen, jer moze uzeti vise priloga-->
+                <label ><b>Prilozi</b></label><br>
+                <label for="sir">Sir</label>
+                <input type="checkbox"  id="sir"  value="sir" name="prilozi"><br>
+                <label for="sos">Sos</label>
+                <input type="checkbox" id="sos" name="prilozi" value="sos"><br>
+                <label for="Salata">Salata</label>
+                <input type="checkbox" id="Salata" value="Salata" name="prilozi">
+
+                       
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
